@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url(./Image/desgin.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .card {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            color: white;
+            padding: 30px;
+            margin: 20px auto;
+            width: 40%;
+            max-width: 90%;
+            display: flex;
+            align-items:flex-start;
+            justify-content: space-between;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+       
+        .image {
+            width: 35%;
+            text-align: right;
+            position: relative;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 5px solid #ffdd57;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .image img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+            padding: 10px;
+        }
+        .topnav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+        .topnav a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        .heading {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .heading h1 {
+            font-size: 3rem;
+            color: #333;
+            text-align: left;
+        }
+        .spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 5%;
+            animation: spin 1s linear infinite;
+            
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .iso-pro {
+            display: inline-block;
+            margin: 10px;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+        .iso-pro:hover {
+            transform: scale(1.1);
+        }
+        .iso-pro .svg {
+            width: 40px;
+            height: 40px;
+            fill: #fff;
+        }
+        .iso-pro .text {
+            color: white;
+            font-size: 0.9rem;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .nav-separator {
+            border: 0; 
+            height: 1px; 
+            background-color: #ccc; 
+            margin: 10px 0; 
+            width: 100%; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="topnav">
+        <a class="active" href="index.html">About</a>
+        <a href="./Image/KIRAN KUMAR_M-RESUME.pdf">Resume</a>
+        <a href="./project.html">Project</a>
+        <a href="./myskill.html">MySkill</a>
+        <a href="./Coursework.html">Coursework</a>
+        <audio src="
+        
+        
+        "></audio>
+    </div>
+
+    <div class="heading">
+        <h1>̷<b><big>K̷̷K̷̷</big></b></h1>
+        <div class="spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="description">
+            <h2>KIRAN KUMAR M</h2>
+            <h3>FULL STACK JAVA DEVELOPER</h3>
+        </div>   
+        </div>
+        <div class="social-links">
+            <div class="iso-pro">
+                <a href="https://kiran142002@gmail.com/" target="_blank">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="svg">
+                        <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"></path>
+                    </svg>
+                </a>
+                <div class="text">Gmail</div>
+            </div>
+        
+            
+            <hr class="nav-separator">
+        
+            <div class="iso-pro">
+                <a href="https://github.com/kiran142002/" target="_blank">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.042.137 3.004.402 2.293-1.552 3.3-1.23 3.3-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.91 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"></path>
+                    </svg>
+                </a>
+                <div class="text">GitHub</div>
+            </div>
+        
+          
+            <hr class="nav-separator">
+        
+            <div class="iso-pro">
+                <a href="https://www.linkedin.com/in/kiran142002/" target="_blank">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M19 0H5a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h14a5 5 0 0 0 5-5V5a5 5 0 0 0-5-5zM8 19H5V8h3v11zM6.5 6.732c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.784 1.764-1.75 1.764zM20 19h-3v-5.604c0-3.368-4-3.113-4 0V19h-3V8h3v1.765c1.396-2.586 7-2.777 7 2.476V19z"></path>
+                    </svg>
+                </a>
+                <div class="text">LinkedIn</div>
+            </div>
+        </div>
+   
+
+</body>
+</html>
